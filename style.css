@@ -1,0 +1,46 @@
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  color: #000;
+}
+
+
+#main{
+  width:600px;
+  margin:0 auto;
+}
+
+.boxWaku{
+  display:flex;
+  flex-wrap:wrap;
+  width:500px;
+}
+
+.box{
+  width:18%;
+  height:90px;
+  background-image: url("assets/kirby_off.png");
+  background-size:100%;
+  border-radius: 90px;
+  margin:1%;
+}
+
+.lightBox{
+  background-color: #ccc;
+  width:300px;
+  height:300px;
+  border:solid 3px #ffffff;
+}
+
+.lightning{
+  background-image: url("assets/kirby.jpg");
+  background-size:100%;
+}
+
+.hidden{
+  visibility:hidden;
+}
